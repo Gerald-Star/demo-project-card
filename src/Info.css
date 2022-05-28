@@ -1,0 +1,102 @@
+
+.info-box {
+    width: 100%;
+    max-width: 300px;
+    
+    /* to set items at the center*/
+    margin: 5px auto;
+    
+    top: 44px;
+    /* border-radius: 10px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* image */
+.profile-pics {
+    height: 300px;
+    width: 70%;
+    border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+    margin-top: 15px;
+    /* object-position: ; */
+}
+
+.header-profile, 
+.profile-pics,
+.contact-box
+{
+    margin-bottom: 20px;
+}
+
+.job-role{
+    color: #F3bf99;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+
+    
+}
+
+.website {
+    font-size: 10.5px;
+    color: bisque;
+    cursor: pointer;
+
+}
+
+.website:hover {
+    color: blue;
+}
+
+
+/* button starts*/
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    /* padding: 15px;  */
+
+}
+
+/* email button */
+.btn1>p {
+    color: #374151;
+    /* font-size: 15px; */
+    /* padding: 5px; */
+    
+    
+}
+
+.btn1 .fa-envelope{
+    color: #374151;
+}
+
+.btn2>p{
+    color: #5093e2;
+}
+
+.btn2 .fa-linkedin {
+    color: #5093e2;
+}
+
+.btn1, .btn2 {
+    display: flex;
+    column-gap: 5px;
+    padding: 5px 10px;
+    font-family: Inter;
+    font-size: 14px; 
+    align-items: center;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.btn1, .btn2:hover{
+    cursor: pointer;
+    color: #5093e2;
+}

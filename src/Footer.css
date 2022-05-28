@@ -1,0 +1,16 @@
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    justify-content: space-around;
+    background-color: #161616;
+    margin-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.social-icons:hover {
+    color: blueviolet;
+}

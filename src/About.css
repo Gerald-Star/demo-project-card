@@ -1,0 +1,26 @@
+.about-box {
+    padding: 0px 30px; 
+    /* text-align: center;
+    display: flex;
+    flex-direction: column; */
+    text-align: left;
+    
+}
+
+.about-title{
+    /* margin-bottom: 5px; */
+    /* margin: 0 auto; */
+    /* margin-bottom: 8px;
+    /* width: 240px; */
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-weight: 700; 
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.about-text {
+    font-size: 12px;
+    font-family: Inter;
+    line-height: 24px;
+}
